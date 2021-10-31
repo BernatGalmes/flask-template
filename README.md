@@ -37,10 +37,9 @@ OS environment variables:
 APP_PREFIX_DEBUG=True
 APP_PREFIX_SECRET_KEY='fhshark@n*$ixdz_p)m8h-kzf#cte(+dx#h%grdjz-j0473c_u'
 
-APP_PREFIX_DATABASE_URI='mysql://hydros:hydros@localhost/hydros?unix_socket=/opt/lampp/var/mysql/mysql.sock'
+APP_PREFIX_DATABASE_URI='mysql://DB_USER_NAME:DB_USER_PASSWORD@SERVER_NAME/DB_NAME?unix_socket=/opt/lampp/var/mysql/mysql.sock'
 APP_PREFIX_DATABASE_TRACK_MODIFICATIONS=False
 
-APP_PREFIX_AEMET_API_KEY='your-aemet-api-key'
 ```
 Then, if you have changed the app prefix or added new config properties, 
 you must modify the settings.py file to read the new properties or read the new names.
